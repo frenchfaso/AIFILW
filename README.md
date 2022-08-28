@@ -6,10 +6,8 @@ To be fair, I eventually got a PC, a beautiful 486DX-33 with 4Mb of RAM and a po
 Nevertheless, that did the trick and my parents were finally convinced that there was more to computers than videogames and "vasting time".
 
 While I was eagerly waiting for my 486DX-33 Tony gave me his C64 to play with (thank You Tony!) so I practiced a bit of basic reading through the beautyful manual that came with it. Dano also moved on from his C64, and got a 486DX-33 earlier than me! So I obviously spent a lot of afternoons at his place, amazed by what this powerbeast could do.
-It was when Dano showed me an image that his 486 took hours to generate, that I felt like struck by a lightning. It was the first 3D graphics rendered image that I had ever seen:
-A shiny sphere and a checkerboard plane reflecting each other, in glorious 256 colors.  
-That was quite a leapfrog from the Commodore 64!  
-He explained he used Povray to generate it, a program that could render photorealistic images, starting from a text file written in a special scene desription language, with an algorythm called raytracing. The first algorythm I fell in love with.  
+But it was when Dano showed me a particular image on his 486 that I felt struck by a lightning. It was the first 3D graphics rendered image that I had ever seen: A shiny sphere and a checkerboard plane reflecting each other, in glorious 256 colors.  
+He explained he used Povray to generate it, a program that could render photorealistic images, starting from a text written in a special scene desription language, with an algorythm called raytracing. The first algorythm I fell in love with.  
 I was flabbergasted and wanted to be able to use my computer to generate such images.
-A couple of months later, with my 486 finally up and running, Dano broght me a copy of 3D Studio for DOS, a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (Although 3D Studio utilized a different algorythm to render 3D photorealistic images, a rasterizer, but that is another love story).
+A couple of months later, with my 486 finally up and running, Dano broght me a copy of 3D Studio for DOS, a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (Although 3D Studio utilized a different algorythm to render 3D photorealistic images, a rasterizer, but that's another love story).
 I ran to the bookstore and boght a giant 3D Studio book. This started my long journey through the beautiful world of computers and algorythms.
