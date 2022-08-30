@@ -1,5 +1,5 @@
 # Algorithms I fell in love with
-### Really..?
+### First Love Never Dies
 As a teen in the late 80' early 90' I was deeply fascinated by computers, two of my buddies, Tony and Dano, were lucky owners of the mythical C64, this magical machine that once hooked up to a television, gave you the power to control it, "painting" whatever image you wanted on the screen (and even animate it!), as opposed to passively consume the streams offered by the TV networks. It was incredible.   
 Unfortunatly I didn't manage to convince my parents to buy me a C64, because "Videogames are bad! A vaste of time!".  
 To be fair, I eventually got a PC, a beautiful 486DX-33 with 4Mb of RAM and a powerful Cirrus Logic graphic card! This happened short after I took a computer class in my school (with Tony and Dano of course) at the end of which we showcased a project to our parents: a robotic car that could follow (mostly...) a white line on the floor, hooked up to a PC via a parallel cable and programmed in QBASIC. My buddies did most of the work, they developed their coding superpower on the C64.  
