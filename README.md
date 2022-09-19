@@ -10,4 +10,4 @@ But it was when Dano showed me a particular image on his 486 that I felt like st
 He explained he used Povray to generate it, a program that could render photorealistic images, starting from a text written in a special scene desription language, with an algorythm called raytracing. The first algorythm I fell in love with.  
 I was flabbergasted and wanted to be able to use my computer to generate such images.
 A couple of months later, with my 486 finally up and running, Dano broght me a copy of 3D Studio for DOS, a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (Although 3D Studio utilized a different algorythm to render 3D photorealistic images).  
-I ran to the bookstore and boght a giant 3D Studio book. This started my long journey through the beautiful world of computers and algorythms.
+I ran to the bookstore and bought a giant 3D Studio book. This started my long journey through the beautiful world of computers and algorythms.
