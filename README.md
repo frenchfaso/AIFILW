@@ -12,6 +12,6 @@ While I was eagerly waiting for my 486DX-33, Tony gave me his C64 to play with (
 
 He explained he used Povray to generate it, a program that could render photorealistic images, starting from a text written in a special scene description language, with an algorithm called raytracing. The first algorithm I fell in love with.
 
-I was flabbergasted and wanted to be able to use my computer to generate such images. A couple of months later, with my 486 finally up and running, Dano brought me a copy of 3D Studio for DOS, a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (Although 3D Studio utilized a different algorithm to render 3D photorealistic images).
+I was flabbergasted and wanted to use my computer to generate such images. A couple of months later, with my 486 finally up and running, Dano brought me a copy of 3D Studio for DOS, a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (Although 3D Studio utilized a different algorithm to render 3D photorealistic images).
 
 I ran to the bookstore and bought a giant 3D Studio book. This started my long journey through the beautiful world of computers and algorithms.
