@@ -1,6 +1,6 @@
 # Algorithms I fell in love with
 ### First love never dies
-As a teen in the late '80s and early '90s, I was deeply fascinated by computers. Two of my buddies, Tony and Dano, were lucky owners of the mythical C64. This magical machine, once hooked up to a television, gave you the power to control it, "painting" whatever image you wanted on the screen (and even animate it!), as opposed to passively consuming the streams offered by the TV networks. It was incredible.
+As a teen in the late '80s and early '90s, I was deeply fascinated by computers. My buddies Tony and Dano were lucky owners of the mythical C64. This machine, once hooked up to a television, gave you the power to control it, "painting" whatever image you wanted on the screen (and even animate it!), as opposed to passively consuming the streams offered by the TV networks. It was magical.
 
 Unfortunately, I didn't manage to convince my parents to buy me a C64 because "Video games are bad! A waste of time!".
 
