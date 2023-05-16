@@ -8,6 +8,12 @@ Unfortunately I couldn't convince my parents to get me a C64 because "Video game
 While I was eagerly waiting for my PC, Toni lent me his C64 (thank you, Toni!) so I practiced a bit of Basic reading through the rich manual that came with it. Dano also moved on from his C64 and got his 486DX-33 earlier than me (dammit!), so I spent some afternoons at his place amazed by what this powerhouse could do. But it was when he showed me a particular image on his 486 that I felt like struck by lightning. It was the first 3D graphics rendered image that I had ever seen: a shiny sphere and a checkerboard plane reflecting each other in glorious 256 colors! He explained he used Povray to generate it, a program that could render photorealistic images, starting from a text written in a special scene description language, with an algorithm called raytracing.  
 The first algorithm I fell in love with.
 
+<p align="center">
+  <img src="/images/ball.webp" alt="3D rendered image of a red shiny, reflective ball, floating over a green/blue checkboard plane.">
+  <br>
+  The image that Dano showed me was very similar to this one (although this one is rendered with 3D Studio for DOS).
+</p>
+
 I was flabbergasted and wanted to use my computer to generate such images. A couple of months later, with my 486 finally up and running, Dano brought me a copy of 3D Studio for DOS. It was a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (although 3D Studio utilized a different algorithm to render 3D photorealistic images).
 
 I ran to the bookstore and bought a big 3D Studio book. My long journey through the amazing world of computers and algorithms had begun.
