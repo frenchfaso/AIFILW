@@ -1,6 +1,7 @@
 # Algorithms I fell in love with
 ### First love never dies
-As a teen in the late '80s and early '90s, I was deeply fascinated by computers. My buddies Toni and Dano were lucky owners of the iconic C64. You hooked it up to a television and suddenly you were in control. You could paint and animate anything on the screen, as opposed to just passively enduring the TV stream. It was magical.
+As a teen in the late '80s and early '90s, I was deeply fascinated by computers. My buddies Toni and Dano were lucky owners of the iconic C64. You hooked it up to a television and suddenly you were in control. You could paint and animate anything on the screen, as opposed to just passively enduring the TV stream.  
+It was magical.
 
 Unfortunately I couldn't convince my parents to get me a C64 because "Video games are a waste of time!". To be fair, they eventually gave me a 486DX-33, with 4Mb of RAM and a powerful Cirrus Logic graphics card! This happened after I took a computer class in my school at the end of which we showcased a project to our parents: a toy robotic car that could follow (mostly...) a white line on the floor, hooked up to a PC via a parallel cable and programmed in QBASIC. My buddies did most of the work, having developed their coding superpowers on the C64. Nevertheless that did the trick and my parents were finally convinced that there was more to computers than video games and wasting time (Back in the day, when 'home computers' first made their way into our households, they were predominantly used for gaming. It took a little while for them to be recognized as valuable work tools).
 
