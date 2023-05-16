@@ -9,7 +9,7 @@ While I was eagerly waiting for my PC, Toni lent me his C64 (thank you, Toni!) s
 The first algorithm I fell in love with.
 
 <p align="center">
-  <img src="{{ site.url }}/images/ball.jpg" alt="3D rendered image of a red shiny, reflective ball, floating over a green/blue checkboard plane.">
+  <img src="{{ site.url }}./images/ball.jpg" alt="3D rendered image of a red shiny, reflective ball, floating over a green/blue checkboard plane.">
   <br>
   The image that Dano showed me was very similar to this one<br>
   (although this one is rendered with 3D Studio for DOS).
