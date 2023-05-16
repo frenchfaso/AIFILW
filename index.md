@@ -20,4 +20,5 @@ I was flabbergasted and wanted to use my computer to generate such images. A cou
 I ran to the bookstore and bought a big 3D Studio book. My long journey through the amazing world of computers and algorithms had begun.
 
 ## Plasma
-### 
+### But plasma is, by far, the most fun!
+Hellp Plasma.
