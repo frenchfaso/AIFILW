@@ -11,7 +11,8 @@ The first algorithm I fell in love with.
 <p align="center">
   <img src="{{ site.url }}/images/ball.jpg" alt="3D rendered image of a red shiny, reflective ball, floating over a green/blue checkboard plane.">
   <br>
-  The image that Dano showed me was very similar to this one (although this one is rendered with 3D Studio for DOS).
+  The image that Dano showed me was very similar to this one<br>
+  (although this one is rendered with 3D Studio for DOS).
 </p>
 
 I was flabbergasted and wanted to use my computer to generate such images. A couple of months later, with my 486 finally up and running, Dano brought me a copy of 3D Studio for DOS. It was a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (although 3D Studio utilized a different algorithm to render 3D photorealistic images).
