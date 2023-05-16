@@ -1,4 +1,5 @@
-### First love never dies
+# Algorithms I fell in love with
+## First love never dies
 As a teen in the late '80s and early '90s, I was deeply fascinated by computers. My buddies Toni and Dano were lucky owners of the iconic C64. You hooked it up to a television and suddenly you were in control. You could paint and animate anything on the screen, as opposed to just passively enduring the TV stream.  
 It was magical.
 
@@ -17,3 +18,6 @@ The first algorithm I fell in love with.
 I was flabbergasted and wanted to use my computer to generate such images. A couple of months later, with my 486 finally up and running, Dano brought me a copy of 3D Studio for DOS. It was a more sophisticated program to create 3D renderings with a powerful user interface, no need to learn a weird "scene description language" (although 3D Studio utilized a different algorithm to render 3D photorealistic images).
 
 I ran to the bookstore and bought a big 3D Studio book. My long journey through the amazing world of computers and algorithms had begun.
+
+## Plasma
+### 
