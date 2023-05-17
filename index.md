@@ -21,5 +21,7 @@ I ran to the bookstore and bought a big 3D Studio book. My long journey through 
 
 ## Plasma
 ### But plasma is, by far, the most fun!
-Hello Plasma.
-<iframe style="width: 640px; height: 480px;" src="https://editor.p5js.org/Frenchfaso/full/FDouXFT50"></iframe>
+One of the first demos I remember running on my PC was the Plasma effect, it run super fluid, something that was not that obvious on this old machines.  
+The speed was achieved by cycling the color palette through VGA registers instead of updating the actual pixels on the screen.
+Here is a simple version of the algorithm in javascript and P5.
+<iframe style="width: 800px; height: 600px;" src="https://editor.p5js.org/Frenchfaso/full/FDouXFT50"></iframe>
