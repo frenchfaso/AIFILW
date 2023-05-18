@@ -1,6 +1,7 @@
 title: Algorithms I fell in love with
 description: An interactive journey through my algorithmic memories
-remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: sighingnow/jekyll-gitbook
 url: https://frenchfaso.github.io
 baseurl: AIFILW
 plugins:
