@@ -24,4 +24,4 @@ I ran to the bookstore and bought a big 3D Studio book. My long journey through 
 One of the first demos I remember running on my PC was the Plasma effect, it ran super fast, it wasn't that obvious on such ancient hardware.  
 The speed was achieved by cycling the color palette through VGA registers instead of updating the actual pixels on the screen.
 Here is a simple version of the algorithm in javascript and P5.
-<iframe style="width: 320px; height: 240px;" src="https://editor.p5js.org/Frenchfaso/full/FDouXFT50"></iframe>
+<iframe style="width: 640px; height: 480px;" src="https://editor.p5js.org/Frenchfaso/full/FDouXFT50"></iframe>
