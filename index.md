@@ -1,5 +1,5 @@
-# Algorithms I fell in love with
-## First love never dies
+## Introduction
+### First love never dies
 As a teen in the late '80s and early '90s, I was deeply fascinated by computers. My buddies Toni and Dano were lucky owners of the iconic C64. You hooked it up to a television and suddenly you were in control. You could paint and animate anything on the screen, as opposed to just passively enduring the TV stream.  
 It was magical.
 
