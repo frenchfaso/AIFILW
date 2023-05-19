@@ -2,13 +2,6 @@ title: Algorithms I fell in love with
 author: Frenchfaso
 twitter: "@frenchfaso"
 description: An interactive journey through my algorithmic memories
-<<<<<<< HEAD
-remote_theme: pages-themes/minimal@v0.2.0
-url: https://frenchfaso.github.io
-baseurl: AIFILW
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-=======
 collections:
   - chapters
 defaults:
@@ -17,4 +10,3 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
->>>>>>> 326a0bf (initial custom theme)
