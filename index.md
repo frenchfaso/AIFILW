@@ -7,4 +7,5 @@ title: Algorithms I fell in love with
     <h2>{{ chapter.title }}</h2>
     {{ chapter.content }}
   </section>
+  <br>
 {% endfor %}
