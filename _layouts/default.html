@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script src="js/main.js"></script>
 </head>
 
 <body>
   <div id="toc">
     {% for chapter in site.chapters %}
-    <a href="">{{ chapter.title }}</a>
+    <a href="#{{ chapter.title }}" onclick="event.preventDefault(); scrollToSection('{{ chapter.title }}')">{{ chapter.title }}</a>
     <br>
     {% endfor %}
   </div>
