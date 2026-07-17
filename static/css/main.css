@@ -163,14 +163,182 @@ figcaption {
   font-style: italic;
 }
 
-.demo {
+.playground {
   display: block;
   width: min(100%, 640px);
-  aspect-ratio: 4 / 3;
   margin: 2rem auto;
   border: 1px solid var(--border);
   border-radius: 0.35rem;
-  background: #fff;
+  overflow: hidden;
+  background: var(--surface);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.playground__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.25rem;
+  padding: 0 0.65rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.playground__tabs,
+.playground__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.playground button {
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.48rem 0.72rem;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.playground button:hover {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.playground button:focus-visible {
+  outline: 0.17rem solid var(--accent);
+  outline-offset: 0.08rem;
+}
+
+.playground__tab[aria-selected="true"] {
+  background: var(--background);
+  color: var(--accent-strong);
+  box-shadow: inset 0 -0.16rem 0 var(--accent);
+}
+
+.playground__actions button {
+  border: 1px solid var(--border);
+}
+
+.playground__actions button:first-child {
+  border-color: var(--accent-strong);
+  background: var(--accent-strong);
+  color: var(--background);
+}
+
+.playground__panel[hidden] {
+  display: none;
+}
+
+.playground__panel--preview {
+  background: #050809;
+}
+
+.playground__frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  background: #050809;
+}
+
+.playground__status {
+  display: block;
+  padding: 0.45rem 0.7rem;
+  background: #3a1718;
+  color: #ffafa8;
+  font-size: 0.75rem;
+}
+
+.playground__status[hidden] {
+  display: none;
+}
+
+.code-editor {
+  display: grid;
+  height: min(70vh, 34rem);
+  min-height: 22rem;
+  overflow: hidden;
+  background: #101719;
+}
+
+.code-editor:focus-within {
+  outline: 0.18rem solid var(--accent);
+  outline-offset: -0.18rem;
+}
+
+.code-editor__highlight,
+.code-editor__input {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: 1rem 1.1rem;
+  tab-size: 2;
+  white-space: pre;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.82rem;
+  font-variant-ligatures: none;
+  line-height: 1.55;
+}
+
+.code-editor__highlight {
+  overflow: hidden;
+  color: #d7e1df;
+  pointer-events: none;
+}
+
+.code-editor__highlight code {
+  font: inherit;
+}
+
+.code-editor__input {
+  z-index: 1;
+  resize: none;
+  overflow: auto;
+  outline: 0;
+  background: transparent;
+  caret-color: #f2f7f6;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.code-editor__input::selection {
+  background: rgb(84 129 154 / 55%);
+}
+
+.token--comment {
+  color: #82908e;
+  font-style: italic;
+}
+
+.token--string {
+  color: #a9d18e;
+}
+
+.token--number {
+  color: #e9bd7a;
+}
+
+.token--keyword {
+  color: #d8a5df;
+}
+
+.token--builtin {
+  color: #86c7d7;
+}
+
+.token--function {
+  color: #8cb9ee;
+}
+
+.token--operator {
+  color: #d7e1df;
 }
 
 .standalone {
@@ -233,6 +401,28 @@ figcaption {
 
   .chapter {
     scroll-margin-top: 8rem;
+  }
+
+  .playground__toolbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.45rem;
+    padding: 0.6rem;
+  }
+
+  .playground__tabs,
+  .playground__actions {
+    justify-content: space-between;
+  }
+
+  .playground__tabs button,
+  .playground__actions button {
+    flex: 1;
+  }
+
+  .code-editor {
+    height: 60vh;
+    min-height: 20rem;
   }
 }
 

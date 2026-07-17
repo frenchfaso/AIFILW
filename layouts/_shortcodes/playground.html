@@ -1,0 +1,82 @@
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default "Interactive effect" -}}
+{{- $sourcePath := printf "effects/%s.js" $id -}}
+{{- $source := resources.Get $sourcePath -}}
+{{- if not $source -}}
+  {{- errorf "playground shortcode could not find %q (%s)" $sourcePath .Position -}}
+{{- end -}}
+
+<div class="playground" data-playground="{{ $id }}">
+  <div class="playground__toolbar">
+    <div class="playground__tabs" role="tablist" aria-label="{{ $title }} view">
+      <button
+        id="{{ $id }}-preview-tab"
+        class="playground__tab"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="{{ $id }}-preview-panel"
+        data-playground-tab="preview"
+      >Preview</button>
+      <button
+        id="{{ $id }}-code-tab"
+        class="playground__tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="{{ $id }}-code-panel"
+        tabindex="-1"
+        data-playground-tab="code"
+      >Code</button>
+    </div>
+
+    <div class="playground__actions">
+      <button type="button" data-playground-action="run">Run</button>
+      <button type="button" data-playground-action="reset">Reset</button>
+    </div>
+  </div>
+
+  <section
+    id="{{ $id }}-preview-panel"
+    class="playground__panel playground__panel--preview"
+    role="tabpanel"
+    aria-labelledby="{{ $id }}-preview-tab"
+    data-playground-panel="preview"
+  >
+    <iframe
+      class="playground__frame"
+      title="{{ $title }}"
+      sandbox="allow-scripts"
+      data-playground-frame
+    ></iframe>
+    <output
+      class="playground__status"
+      aria-live="polite"
+      data-playground-status
+      hidden
+    ></output>
+  </section>
+
+  <section
+    id="{{ $id }}-code-panel"
+    class="playground__panel playground__panel--code"
+    role="tabpanel"
+    aria-labelledby="{{ $id }}-code-tab"
+    data-playground-panel="code"
+    hidden
+  >
+    <div class="code-editor">
+      <pre class="code-editor__highlight" aria-hidden="true"><code data-playground-highlight></code></pre>
+      <textarea
+        class="code-editor__input"
+        aria-label="{{ $title }} JavaScript"
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false"
+        wrap="off"
+        data-playground-source
+      >{{ $source.Content }}</textarea>
+    </div>
+  </section>
+</div>
