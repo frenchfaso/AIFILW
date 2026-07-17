@@ -1,0 +1,22 @@
+baseURL = "https://frenchfaso.github.io/AIFILW/"
+locale = "en-us"
+title = "Algorithms I fell in love with"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Frenchfaso"
+  description = "An interactive journey through my algorithmic memories"
+
+[permalinks]
+  chapters = "/chapters/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

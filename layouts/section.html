@@ -1,0 +1,13 @@
+{{ define "body" }}
+  <main class="standalone">
+    <nav aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">← {{ site.Title }}</a>
+    </nav>
+    <h1>{{ .Title }}</h1>
+    <ol class="chapter-list">
+      {{ range .RegularPages.ByWeight }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ol>
+  </main>
+{{ end }}

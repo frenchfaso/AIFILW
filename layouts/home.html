@@ -1,0 +1,28 @@
+{{ define "body" }}
+  {{ $chapters := where site.RegularPages.ByWeight "Section" "chapters" }}
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="site-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+      <nav aria-label="Chapters">
+        {{ range $chapters }}
+          <a href="#chapter-{{ .File.ContentBaseName }}">{{ .Title }}</a>
+        {{ end }}
+      </nav>
+    </aside>
+
+    <main id="content" class="content">
+      <header class="intro">
+        <p class="eyebrow">{{ site.Params.author }}</p>
+        <h1>{{ site.Title }}</h1>
+        <p>{{ site.Params.description }}</p>
+      </header>
+
+      {{ range $chapters }}
+        <article id="chapter-{{ .File.ContentBaseName }}" class="chapter">
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+        </article>
+      {{ end }}
+    </main>
+  </div>
+{{ end }}
